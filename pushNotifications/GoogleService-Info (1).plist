@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>1024926137628-reu3d3ov4vof6o5udhintt7i5cqkfnha.apps.googleusercontent.com</string>
+	<string>1024926137628-vub4ec84378ql2qgeq898dr8147js3gn.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1024926137628-reu3d3ov4vof6o5udhintt7i5cqkfnha</string>
+	<string>com.googleusercontent.apps.1024926137628-vub4ec84378ql2qgeq898dr8147js3gn</string>
 	<key>API_KEY</key>
 	<string>AIzaSyD1-78mH4IUsJqbn9P8tlMAjXLIyYIbe3o</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,7 +17,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.Szi.pushNotifications</string>
+	<string>com.szilardgabor.pushNotifications</string>
 	<key>PROJECT_ID</key>
 	<string>pushnotifications-9a30b</string>
 	<key>STORAGE_BUCKET</key>
@@ -33,7 +33,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1024926137628:ios:7258029396ceac68</string>
+	<string>1:1024926137628:ios:843535acea319b5a</string>
 	<key>DATABASE_URL</key>
 	<string>https://pushnotifications-9a30b.firebaseio.com</string>
 </dict>

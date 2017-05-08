@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11A6130F1EC1146700EAF947 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 11A6130E1EC1146700EAF947 /* GoogleService-Info (1).plist */; };
 		11ED46F91EC0D20B005F9E03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED46F81EC0D20B005F9E03 /* AppDelegate.swift */; };
 		11ED46FB1EC0D20B005F9E03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED46FA1EC0D20B005F9E03 /* ViewController.swift */; };
 		11ED46FE1EC0D20B005F9E03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11ED46FC1EC0D20B005F9E03 /* Main.storyboard */; };
 		11ED47001EC0D20B005F9E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11ED46FF1EC0D20B005F9E03 /* Assets.xcassets */; };
 		11ED47031EC0D20B005F9E03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11ED47011EC0D20B005F9E03 /* LaunchScreen.storyboard */; };
-		11ED470B1EC0D2B0005F9E03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11ED470A1EC0D2B0005F9E03 /* GoogleService-Info.plist */; };
 		FAD20BD5EEF3B29361DCE17F /* Pods_pushNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9D9A1CE4580108DA951376 /* Pods_pushNotifications.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11A6130E1EC1146700EAF947 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		11A613101EC1150700EAF947 /* pushNotifications.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pushNotifications.entitlements; sourceTree = "<group>"; };
 		11ED46F51EC0D20B005F9E03 /* pushNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pushNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11ED46F81EC0D20B005F9E03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11ED46FA1EC0D20B005F9E03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,7 +26,6 @@
 		11ED46FF1EC0D20B005F9E03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11ED47021EC0D20B005F9E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11ED47041EC0D20B005F9E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11ED470A1EC0D2B0005F9E03 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7E9D9A1CE4580108DA951376 /* Pods_pushNotifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pushNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		906E42182328213BD96792A8 /* Pods-pushNotifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pushNotifications.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pushNotifications/Pods-pushNotifications.debug.xcconfig"; sourceTree = "<group>"; };
 		E222AC424FA9E0D3760622F2 /* Pods-pushNotifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pushNotifications.release.xcconfig"; path = "Pods/Target Support Files/Pods-pushNotifications/Pods-pushNotifications.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,13 +64,14 @@
 		11ED46F71EC0D20B005F9E03 /* pushNotifications */ = {
 			isa = PBXGroup;
 			children = (
+				11A613101EC1150700EAF947 /* pushNotifications.entitlements */,
 				11ED46F81EC0D20B005F9E03 /* AppDelegate.swift */,
 				11ED46FA1EC0D20B005F9E03 /* ViewController.swift */,
 				11ED46FC1EC0D20B005F9E03 /* Main.storyboard */,
 				11ED46FF1EC0D20B005F9E03 /* Assets.xcassets */,
 				11ED47011EC0D20B005F9E03 /* LaunchScreen.storyboard */,
 				11ED47041EC0D20B005F9E03 /* Info.plist */,
-				11ED470A1EC0D2B0005F9E03 /* GoogleService-Info.plist */,
+				11A6130E1EC1146700EAF947 /* GoogleService-Info (1).plist */,
 			);
 			path = pushNotifications;
 			sourceTree = "<group>";
@@ -126,8 +128,13 @@
 				TargetAttributes = {
 					11ED46F41EC0D20A005F9E03 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = DASLK2R355;
+						DevelopmentTeam = Y6CGDDFA33;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -155,9 +162,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				11ED47031EC0D20B005F9E03 /* LaunchScreen.storyboard in Resources */,
-				11ED470B1EC0D2B0005F9E03 /* GoogleService-Info.plist in Resources */,
 				11ED47001EC0D20B005F9E03 /* Assets.xcassets in Resources */,
 				11ED46FE1EC0D20B005F9E03 /* Main.storyboard in Resources */,
+				11A6130F1EC1146700EAF947 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,10 +346,12 @@
 			baseConfigurationReference = 906E42182328213BD96792A8 /* Pods-pushNotifications.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DASLK2R355;
+				CODE_SIGN_ENTITLEMENTS = pushNotifications/pushNotifications.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y6CGDDFA33;
 				INFOPLIST_FILE = pushNotifications/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Szi.pushNotifications;
+				PRODUCT_BUNDLE_IDENTIFIER = com.szilardgabor.pushNotifications;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -353,10 +362,12 @@
 			baseConfigurationReference = E222AC424FA9E0D3760622F2 /* Pods-pushNotifications.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DASLK2R355;
+				CODE_SIGN_ENTITLEMENTS = pushNotifications/pushNotifications.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y6CGDDFA33;
 				INFOPLIST_FILE = pushNotifications/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Szi.pushNotifications;
+				PRODUCT_BUNDLE_IDENTIFIER = com.szilardgabor.pushNotifications;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -381,6 +392,7 @@
 				11ED47091EC0D20B005F9E03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
