@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11A6130F1EC1146700EAF947 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 11A6130E1EC1146700EAF947 /* GoogleService-Info (1).plist */; };
+		11A6130F1EC1146700EAF947 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11A6130E1EC1146700EAF947 /* GoogleService-Info.plist */; };
 		11ED46F91EC0D20B005F9E03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED46F81EC0D20B005F9E03 /* AppDelegate.swift */; };
 		11ED46FB1EC0D20B005F9E03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED46FA1EC0D20B005F9E03 /* ViewController.swift */; };
 		11ED46FE1EC0D20B005F9E03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11ED46FC1EC0D20B005F9E03 /* Main.storyboard */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		11A6130E1EC1146700EAF947 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		11A6130E1EC1146700EAF947 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		11A613101EC1150700EAF947 /* pushNotifications.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pushNotifications.entitlements; sourceTree = "<group>"; };
 		11ED46F51EC0D20B005F9E03 /* pushNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pushNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11ED46F81EC0D20B005F9E03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 				11ED46FF1EC0D20B005F9E03 /* Assets.xcassets */,
 				11ED47011EC0D20B005F9E03 /* LaunchScreen.storyboard */,
 				11ED47041EC0D20B005F9E03 /* Info.plist */,
-				11A6130E1EC1146700EAF947 /* GoogleService-Info (1).plist */,
+				11A6130E1EC1146700EAF947 /* GoogleService-Info.plist */,
 			);
 			path = pushNotifications;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 				11ED47031EC0D20B005F9E03 /* LaunchScreen.storyboard in Resources */,
 				11ED47001EC0D20B005F9E03 /* Assets.xcassets in Resources */,
 				11ED46FE1EC0D20B005F9E03 /* Main.storyboard in Resources */,
-				11A6130F1EC1146700EAF947 /* GoogleService-Info (1).plist in Resources */,
+				11A6130F1EC1146700EAF947 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
